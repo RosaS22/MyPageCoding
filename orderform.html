@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <style>
+        table, th, td {
+        border: 1px solid brown;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <img src="instagram profile.jpg" width="400" alt="Artful Bites Cafe logo">
+        <h1>Artful Bites Cafe</h1>
+    </header>
+    <nav>
+        <!--a href is absolute (it will take me directly to that link)-->
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="orderform.html">Order Form</a>
+    </nav>
+        <!--hr tag known as the horizontal rule separating content or a shift of topic (the horizontal line on the page)-->
+        <hr>
+    <header>
+        <h1>
+        Available Items
+        </h1>
+    <!--simple table with one row and three columns-->
+        <table>
+        <tr>
+            <td>
+                <h4>Brownies</h4>
+            <img src="Brownies.jpg" width="200" alt="Frosted Brownies with chocolate drizzle">
+            </td>
+            <td>
+                <h4>French Toast</h4>
+                <img src="French Toast.jpg" width="200" alt="Cinnamon swirl french toast on a grill">
+            </td>
+            <td>
+                <h4>Lasagna</h4>
+                <img src="Lasagna.jpg" width="200" height="150" alt="Our house famous Lasagna">
+            </td>
+        
+        </tr>
+        </table>
+    </header><br><br>
+    <!--I added the form IN the table but separated each field to be in separate rows-->
+        <table>
+            <tr>
+            <form action="/action_page.php" method="get">
+                <td>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                </td>
+        </tr>
+        <tr>
+            <td>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label for="text">Order:</label>
+            <input type="text" id="order" name="order"><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="submit" value="Submit">
+            </td>
+        </tr>  
+            </form>
+            </table><br><br>
+            <table>
+        <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Rosa</td>
+            <td>Salce</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
