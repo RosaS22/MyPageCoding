@@ -1,5 +1,5 @@
 <!--Started as usual with the ! emmet abbreviation for each page
-  Coding Steps:
+  Wk 1 Coding Steps:
 Create a website using only HTML. 
 
 3 pages with links to navigate between all pages present on each page. 
@@ -9,31 +9,37 @@ a list
 a table
 a form.
 
+wk 2 coding steps: 
+Style the website you made last week using CSS with the following requirements:
+Use only external CSS file (no internal or inline styling)
+Every element must be styled.
+Create style rules using class, id, and element selectors.
+
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Artful Bites Cafe</title>
 </head>
-<body>
+<body class="body">
   <!--Header is the main title of the page-->
-    <header>
-        <img src="instagram profile.jpg" width="400" alt="Artful Bites Cafe logo">
-        <h1>Artful Bites Cafe</h1>
+    <header class="header">
+        <img src="Artful Bites Cafe.png" width="300" alt="Artful Bites Cafe logo">
         <!--This is the tag line in the second smallest header size-->
         <h3>"Where Art, Music, and Baking collide"</h3>
     </header>
   
-  <nav>
+  <div class="nav">
     <!--a href is absolute (it will take me directly to that link)-->
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="orderform.html">Order Form</a>
-</nav>
-<hr>
-  <section>
+    <a id="links" href="index.html">Home</a>
+    <a id="links" href="about.html">About Us</a>
+    <a id="links" href="orderform.html">Order Form</a>
+  </div>
+  <hr>
+  <section id="box-model">
   <h3>
     <!--added the paragraph tag to make two different paragraphs giving some white space between the two-->
     <p>Artful Bites Cafe is a charming and creative culinary establishment that merges the worlds of art and food. <br> It's unique concept where you can enjoy delicious meals and beverages while being surrounded by an inspiring atmosphere of visual art, sculptures, or other forms of artistic expression.
@@ -44,10 +50,10 @@ a form.
   </section>
 <!--not sure if adding a section tag was necessary for this header-->
   <section>
-  <header>
+  <header class="header">
     <h2>Local Artists</h2>
     <h3>Dragon Rider by Kai</h3>
-    <img src="Dragon Rider.jpg" width="400" height="550" alt="Local artist depiction of a dragon rider">
+    <img src="images/Dragon Rider.jpg" width="400" height="550" alt="Local artist depiction of a dragon rider">
   </header>
   </section>
 

@@ -1,0 +1,63 @@
+.header {
+    text-align: center;
+    color: #07103c;
+}
+.title {
+    text-align: center;
+    font-size:300%;
+    color:#3e988d;
+}
+#box-model{
+    padding: 20px;
+    border-style: double;
+    border-width: 3px;
+    border-color: #07103c;
+    margin: 30px;
+    background-color: #ffa74e;
+}
+/* makes the logo to the left of the page*/
+#logo {
+    display: block;
+    align-items: first baseline;
+}
+body{
+    background-color: #f9ebeb;
+}
+/* Style navigation bar*/
+.nav {
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: #dee9e5;
+
+}
+/*NOTE: removes the underline of links and increases font*/
+#links {
+    color: #07103c ;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Style the navigation bar links */
+
+/* Change color on hover */
+.nav :hover{
+    background-color: #ffa74e;
+}
+.p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+#th {
+    background-color:  #ffa74e;
+    color: black;
+}
+.section {
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+    border: double #07103c;
+    background-color:#ffa74e;
+}
+table, th, td {
+    border: 1px solid #07103c;
+    margin: 0 auto;
+    }
