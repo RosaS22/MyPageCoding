@@ -1,12 +1,15 @@
 .header {
     text-align: center;
-    color: #07103c;
+    color: #3c2007;
 }
+/*added to give the titles of the page more emphasis*/
 .title {
     text-align: center;
     font-size:300%;
     color:#3e988d;
 }
+/*created box-model id to add the text in a box 
+so that it stands out.*/
 #box-model{
     padding: 20px;
     border-style: double;
@@ -15,11 +18,13 @@
     margin: 30px;
     background-color: #ffa74e;
 }
-/* makes the logo to the left of the page*/
+/* Not currently in use: but
+puts the logo to the left of the page*/
 #logo {
     display: block;
     align-items: first baseline;
 }
+/* This add color to the webpage*/
 body{
     background-color: #f9ebeb;
 }
@@ -31,7 +36,7 @@ body{
     background-color: #dee9e5;
 
 }
-/*NOTE: removes the underline of links and increases font*/
+/*removes the underline of links and increases font*/
 #links {
     color: #07103c ;
     text-decoration: none;
@@ -50,6 +55,9 @@ body{
     background-color:  #ffa74e;
     color: black;
 }
+/*added to give more creativity to the page then
+realized I could have switched to box-model like in the 
+home page*/
 .section {
     text-align: center;
     margin: 5%;
@@ -57,6 +65,7 @@ body{
     border: double #07103c;
     background-color:#ffa74e;
 }
+/*makes all tables look the same*/
 table, th, td {
     border: 1px solid #07103c;
     margin: 0 auto;
